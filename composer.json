@@ -1,0 +1,20 @@
+{
+    "name": "topthink/think-test",
+    "description": "test package for thinkphp5",
+    "authors": [
+        {
+            "name": "jianyouvip",
+            "email": "599029@qq.com"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "think\\test\\": "src/"
+        },
+        "files": [
+            "src/test.php"
+        ]
+    }
+}
