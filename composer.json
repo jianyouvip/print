@@ -1,6 +1,6 @@
 {
-    "name": "topthink/think-test",
-    "description": "test package for thinkphp5",
+    "name": "topthink/think-print",
+    "description": "print package for thinkphp5",
     "authors": [
         {
             "name": "jianyouvip",
@@ -11,10 +11,10 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "think\\test\\": "src/"
+            "think\\print\\": "src/"
         },
         "files": [
-            "src/test.php"
+            "src/print.php"
         ]
     }
 }
